@@ -1,0 +1,438 @@
+*{
+    box-sizing: border-box;
+}
+/* .container{ */
+    /* max-width: 1840px; */
+/* } */
+body{
+    background-color: #e2ded2;
+    overflow-x: hidden;
+}
+/* START GROUP 1 */
+.header{
+    background-color: #c87e6b;
+}
+
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    color: #e7e4db;
+    font-weight: 800;
+    font-family: "Montserrat";
+    /* text-align: center; */
+    margin:15px 30px;
+}
+.header .navbar-nav .nav-item .nav-link:hover{
+    border-radius: 15px;
+    background-color: #787878;
+    color:#ffffff;
+}
+.header .icon-list ul{
+    list-style-type: none;
+}
+.header .icon-list ul li{
+     display: inline-block;
+}
+.header .icon-list ul li a img{
+     padding:25px 30px;
+}
+/* START BANNER 1 */
+.banner1 .banner1-left{
+     /* background-image: url(/18-NovFLOWERarraSHOP/assets/Images/G1IMGleafleft.png); */
+     /* background-repeat: no-repeat; */
+     border: 1px solid transparent;
+     position: relative;
+}
+.banner1 .leaf2{
+    margin-left: 600px;
+    margin-top: 100px;
+}
+.banner1 .banner1-left h1{
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 53px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner1 .banner1-left h2{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner1 .banner1-left p{
+    font-size: 25px;
+    line-height: 29px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    text-align: center;
+    margin-bottom: 40px;
+}
+.banner1 .banner1-left .button-group{
+    margin-left: 200px;
+    /* margin-bottom: 100px; */
+}
+.banner1 .banner1-left .button-group a{
+    font-size: 13px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    text-decoration: none;
+}
+.banner1 .banner1-left .btn2,.btn1{
+     margin-left: 50px;
+     padding: 12px 20px;
+}
+.banner1 .banner1-left .btn1:hover{
+    border-radius: 15px;
+    background-color: #787878;
+    color:#ffffff;
+}
+.banner1 .banner1-left .btn2:hover{
+    border-radius: 15px;
+    background-color: #787878;
+    color:#ffffff;
+}
+/* START GROUP 2 */
+/* START BANNER 2 */
+.banner2{
+    border:1px solid transparent;
+}
+.banner2 .row{
+    background-color: #765a33;
+    height: 200px;
+    padding-top: 50px;
+}
+.banner2 h1{
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+}
+.banner2 h2{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+}
+/* START GROUP 3 */
+/* START BANNER 3 */
+.banner3{
+     border: 1px solid transparent;
+     position: relative;
+     height: 1000px;
+}
+.banner3 .artleftup{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.banner3 .artrightup{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.banner3 .artleftbottom{
+    position: absolute;
+    left: 200px;
+    bottom: 80px;
+}
+.banner3 .artrightbottom{
+    position: absolute;
+    right: 200px;
+    bottom: 80px;
+}
+.banner3 h1{
+    font-size: 58px;
+    letter-spacing: 1px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-top: 100px;
+}
+.banner3 h2{
+    font-size: 25px;
+    color: #765a33;
+    font-weight: 500;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    margin-bottom: 100px;
+}
+.banner3 .banner3A{
+    filter: drop-shadow(0px 7px 9px rgba(0,0,0,0.19));
+    background-color: #e6e3da;
+}
+.banner3 .banner3A h3{
+    font-size: 29px;
+    letter-spacing: 1px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    margin-left: 25px;
+}
+.banner3 .banner3A p{
+    font-size: 13px;
+    line-height: 17px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    margin-left: 25px;
+}
+.banner3 .banner3A img{
+    margin-left: 7px;
+    /* width: 200px; */
+}
+.banner3 .banner3A .btn3{
+    font-size: 10px;
+    color: #e6e3da;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    border-radius: 12px;
+    background-color: #454545;
+    padding: 5px 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+/* START GROUP 4 */
+.banner4{
+     border: 1px solid transparent;
+     position: relative;
+}
+.banner4 .artleft{
+    position: absolute;
+    top:50px;
+}
+.banner4 .artright{
+     position: absolute;
+     
+     bottom: 0;
+    right: 0;
+}
+.banner4 h1{
+     font-size: 58px;
+    letter-spacing: 1px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+    margin-top: 40px;
+}
+.banner4 h2{
+     font-size: 25px;
+     color: #765a33;
+     font-weight: 500;
+     font-family: "Montserrat Alternates";
+     text-align: center;
+     margin-bottom: 40px;
+}
+.banner4 .rect1{
+     margin-left: 900px;
+}
+.banner4 .main{
+     position: absolute;
+     right:320px;
+     top:250px;
+}
+.banner4 .rect2{
+    margin-left: 250px;
+    margin-top: 120px;
+}
+/* START GROUP 5 */
+/* START BANNER 5 */
+.banner5{
+    border: 1px solid transparent;
+    background-color: #dbc06e;
+    /* position: relative; */
+    margin: 150px 0px;
+}
+.banner5 .banner5-left{
+     position: relative;
+}
+.banner5 .banner5-left .artleft{
+    position: absolute;
+    top:150px;
+    left:80px;
+}
+.banner5 .banner5-left .artright{
+    position: absolute;
+    top: 150px;
+    right:90px;
+}
+.banner5-left .btn5{
+    border-radius: 22px;
+    background-color: #424242;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #e7e4db;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 100px;
+    margin-left:280px;
+}
+.banner5 h1{
+    font-size: 124px;
+    letter-spacing: 4px;
+    color: #424242;
+    font-weight: 900;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    /* margin-top: -30px; */
+    /* border:1px solid red; */
+    padding-top: 0px;
+}
+.banner5 h2{
+    font-size: 29px;
+    color: #424242;
+    font-weight: 600;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    margin-top: -30px;
+}
+/* STRAT GROUP 6 */
+/* START BANNER 6 */
+.banner6{
+     border:1px solid transparent;
+     /* margin-bottom: 100px; */
+     position: relative;
+     height: 800px;
+}
+.banner6 .banner6-left{
+    position: relative;
+    border: 1px solid red;
+}
+.banner6 .banner6-left .main6{
+    position: absolute;
+    top: 60px;right: 100px;
+    width: 700px;height: 500px;
+}
+.banner6 .banner6-left .recta1{
+     margin-left: 750px;
+     margin-top: 20px;
+}
+.banner6 .banner6-left .recta2{
+      margin-top: 150px;
+      margin-left: 100px;
+}
+.banner6 .artright{
+      position: absolute;
+      bottom: 0;
+      right: 0;
+}
+.banner6 .banner6-right{
+     border: 1px solid red;
+     position: relative;
+}
+.banner6 .banner6-right .artleft{
+    position: absolute;
+    top: 135px;
+    left: 20px;
+}
+.banner6 .banner6-right h1{
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 62px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+    margin-top: 250px;
+}
+.banner6 .banner6-right p{
+    font-size: 25px;
+    line-height: 29px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+    margin: 15px 0px;
+}
+.banner6 .banner6-right .btn6{
+    font-size: 17px;
+    color: #e6e3da;
+    font-weight: 400;
+    font-family: "Montserrat Alternates";
+    text-align: center;
+    border-radius: 12px;
+    background-color: #454545;
+}
+/* START GROUP 7 */
+/* START BANNER 7 */
+.banner7{
+     border: 1px solid transparent;
+     position: relative;
+     height:980px;
+}
+.banner7 .artleft{
+    position: absolute;
+    bottom: 0;
+}
+.banner7 .banner7-left{
+    border: 1px solid transparent;
+}
+.banner7 .banner7-left img{
+     margin-left: 80px;
+     margin-top: 170px;
+}
+.banner7 .banner7-left h1{
+    margin: 30px 0px;
+    margin-left: 80px;
+    font-size: 58px;
+    letter-spacing: 1px;
+    line-height: 62px;
+    color: #484a4b;
+    font-weight: 700;
+    font-family: "Playfair Display";
+}
+.banner7 .banner7-left p{
+    margin: 40px 0px;
+    margin-left: 80px;
+    font-size: 25px;
+    line-height: 29px;
+    color: #765a33;
+    font-weight: 400;
+    font-family: "Josefin Slab";
+}
+.banner7 .banner7-left .btn7{
+     margin-left: 80px;
+     border-radius: 12px;
+     background-color: #454545;
+     font-size: 15px;
+     color: #e6e3da;
+     font-weight: 400;
+     font-family: "Montserrat Alternates";
+}
+.banner7 .banner7-right{
+    position: relative;
+    border: 1px solid transparent;
+}
+.banner7 .banner7-right .main7{
+    position: absolute;
+    left: 40px;
+    top: 80px;
+}
+.banner7 .banner7-right .reat1{
+     /* margin-left: 40px; */
+     margin-top: 45px;
+}
+.banner7 .banner7-right .reat2{
+      margin-top: 130px;
+      margin-left: 222px;
+}
+/* START GROUP 8 */
+/* START BANNER 8 */
+.banner8{
+    border: 1px solid transparent;
+}
